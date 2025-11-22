@@ -1,62 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jessica Huang</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="hero">
-      <h1>Hi, I'm Jessica Huang</h1>
-      <h2><span class="typing"></span></h2>
-    </div>
-  </header>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <div class="project-list">
-      <div class="project">
-        <h3>AI Chat Box</h3>
-        <p>An interactive AI chatbot designed for casual Q&A and productivity.</p>
-        <a href="#">View Project</a>
-      </div>
-      <div class="project">
-        <h3>CUNY Schedule Builder</h3>
-        <p>A web tool for students to build their semester schedule easily.</p>
-        <a href="#">View Project</a>
-      </div>
-      <div class="project">
-        <h3>Projects</h3>
-        <p>Custom academic planning tool tailored for computer science majors.</p>
-        <a href="#">View Project</a>
-      </div>
-    </div>
-  </section>
+    <header>
+        <button id="mode-toggle">Toggle Dark Mode</button>
+    </header>
 
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:jessxcahuang@Gmail.com">jessxcahuang@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/">github.com/your-profile</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/">linkedin.com/in/your-profile</a></p>
-  </section>
+    <section id="hero">
+        <div class="container">
+            <h1>Hello, I'm **[Your Name]** 👋</h1>
+            <p>I am a **[Your Title/Skill]** building beautiful and interactive web experiences. Welcome to my personal portfolio!</p>
+            <a href="#projects" class="button primary-button">View My Work</a>
+        </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Jessica Huang. All rights reserved.</p>
-  </footer>
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project Title One</h3>
+                    <p>A brief description of your first awesome project built with modern technologies.</p>
+                    <a href="#" class="project-link">Learn More &rarr;</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project Title Two</h3>
+                    <p>Description of your second project, focusing on the problem solved and the result.</p>
+                    <a href="#" class="project-link">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script>
-    var typed = new Typed(".typing", {
-      strings: ["chess", "UX/UI Designer", "Web Developer", "problem solver"],
-      typeSpeed: 60,
-      backSpeed: 30,
-      loop: true
-    });
-  </script>
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm currently open to new opportunities. Feel free to reach out!</p>
+            <a href="mailto:your.email@example.com" class="button primary-button">Send an Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [Your Name]. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
